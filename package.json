@@ -14,17 +14,6 @@
     "prettier:format": "prettier --config .prettierrc.cjs src/**/*.{js,jsx,ts,tsx,vue} --write",
     "prepare": "husky install"
   },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-customizable"
-    },
-    "cz-customizable": {
-      "config": "config/.cz-config.cjs"
-    }
-  },
-  "dependencies": {
-    "vue": "^3.2.45"
-  },
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",
     "@commitlint/config-conventional": "^17.2.0",
@@ -66,5 +55,16 @@
     "*.{html,css,sass,scss,vue}": [
       "yarn lint:style"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "config/.cz-config.cjs"
+    }
+  },
+  "dependencies": {
+    "vue": "^3.2.45"
   }
 }
