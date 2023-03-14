@@ -14,6 +14,7 @@ module.exports = {
   },
   rules: {
     'no-undef': 'warn',
+    'no-debugger': 'warn',
     'vue/multi-word-component-names': 'off',
   },
 }
