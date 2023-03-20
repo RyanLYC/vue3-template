@@ -298,7 +298,7 @@ js、jsx、ts、tsx、vue 文件执行 eslint 的检测和 prettier 格式化
   目前推荐使用 angular 规范
 
 ```
-npx husky add .husky/commit-msg  'npx --no -- commitlint --edit ${1}'
+npx husky add .husky/commit-msg 'npx --no -- commitlint --edit $1'
 ```
 
 #### 修改 commitlint 配置文件
